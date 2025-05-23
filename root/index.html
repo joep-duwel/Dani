@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kleine Dani</title>
+  <link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+  <header>
+    <h1>Hey, ik ben Dani</h1>
+    <p>Niet te serieus. Gewoon mezelf.</p>
+  </header>
+
+  <section class="about">
+    <h2>Over mij</h2>
+    <p> Ik ben Dani. De huzz houdt van me, en dat is geen grap.  
+    Altijd fris, altijd nocha — een echte ballie man en money man.  
+    F*ck met me? Doe maar niet, ik ben een freaky baas die z’n eigen regels maakt.  
+    Chill, gevaarlijk, en altijd ready voor de volgende move. 💀🔥💸</p>
+  </section>
+
+  <section class="hobbies">
+    <h2>Nonchalante activities</h2>
+    <ul>
+      <li>😎 Snabba</li>
+      <li>🎮 LeCalm game sesh</li>
+      <li>💭 Goone</li>
+      <li>💸 Money maken</li>
+    </ul>
+  </section>
+
+  <section class="media">
+    <h2>Glaze me</h2>
+    <div class="gallery">
+      <img src="img/IMG_3533.jpg" alt="Dani in actie" />
+      <img src="img/1dani.jpg" alt="Dani chillt" />
+      <img src="img/IMG_3304.jpg" alt="Dani slapend rijk" />
+          <img src="img/danitrump.jpg" alt="Dani fan" />
+    </div>
+
+    <h2>Sexy video</h2>
+    <div class="videos">
+      <video controls>
+        <source src="img/70671294-111E-4BDC-A640-9B2AD2DBB607.mov" type="video/mp4" />
+        Je browser ondersteunt deze video niet.
+      </video>
+    </div>
+  </section>
+
+  <footer>
+    <p>Peace out ✌️ - Dani</p>
+  </footer>
+    <audio id="welcomeSound" src="audio/ScreenRecording_05-23-2025_22-54-20_1.mp3" preload="auto"></audio>
+
+  <script>
+    window.addEventListener('load', () => {
+      const sound = document.getElementById('welcomeSound');
+      sound.volume = 0.3;
+      sound.play().catch(() => {
+        console.log('Autoplay geluid geblokkeerd');
+      });
+    });
+  </script>
+</body>
+</html>
